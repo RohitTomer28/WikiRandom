@@ -1,0 +1,18 @@
+{
+    "name": "Wikipedia Randomiser",
+    "version": "1.0.0",
+    "description": "Opens a randomised wikipedia page",
+    "manifest_version": 3,
+    "author": "Rohit Tomer",
+    "action": {
+        "default_title": "Wikipedia Randomiser",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+}
